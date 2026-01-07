@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Cairo Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Bootstrap RTL CSS (loaded conditionally) -->
+    <link
+      id="bootstrap-rtl"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>RasoulAllah</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-purple">
+        <div class="container">
+          <a class="navbar-brand" href="#">رسول العالمين</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="تبديل التنقل"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >الصفحة الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quran">القران</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#alhadith">أحاديث</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#alsyrah">السيرة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#stories">الصحابة</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#athkar">أذكار</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#books">كتب</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#miscellany">منوعات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">عنا</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="بحث"
+                aria-label="بحث"
+              />
+              <button class="btn btn-outline-success" type="submit">بحث</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+    </header>
+    <!-- End Header -->
+    <main>
+      <!-- Start My Carousle -->
+      <div
+        id="myCarousel"
+        class="carousel slide bg-pink"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#f8f9fa" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>آية اليوم</h1>
+                <p>
+                  قال تعالى :(( ان الله وملائكته يصلون على النبي ياأيها الذين
+                  امنوا صلوا عليه وسلموا تسليما ))
+                </p>
+                <p><a class="btn btn-lg btn-purple" href="#">تفسير الاية</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#f8f9fa" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h2 class="h1">حديث اليوم</h2>
+                <p>
+                  قال الرسول صلى الله عليه وسلم :(( خيركم من تعلم الدين وعلّمه
+                  ))
+                </p>
+                <p><a class="btn btn-lg btn-purple" href="#">شرح الحديث</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#f8f9fa" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h3 class="h1">ذكر اليوم</h3>
+                <p>سبحان الله وبحمده سبحان الله العظيم</p>
+                <p><a class="btn btn-lg btn-purple" href="#">فضل الذكر</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon fas fa-angle-right"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">prev</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon fas fa-angle-left"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </div>
+      <!-- End My Carousle -->
+      <!-- Start Landing Page -->
+      <section class="landing-page py-5 text-center">
+        <div class="container-fluid">
+          <div class="content">
+            <h2 class="h1">رسول العالمين</h2>
+            <p class="lead">
+              هو موقع اسلامي شامل يضم كل ما يتعلق بالدين الاسلامي الحنيف وكل ما
+              يتعلق بالتاريخ العربي من شخصيات وعظماء وايضا قصص الصحابه وغيرههم
+              ممن غيروا مجرى التاريخ مدعوما بكتب موثوقة وصحيحة لا يخالطها شك
+              باذن الله ومحتوى هذا الموقع وقف على مراجعته مجموعة من العلماء
+              الفضلاء الاجلاء.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Landing Page -->
+      <!-- Start Quran Section -->
+      <div class="quran py-5" id="quran">
+        <div class="container-fluid">
+          <div class="quran-content">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 text-center">
+                <img
+                  src="/assets/images/section-icons/Quran.webp"
+                  alt="كتاب القران.webp"
+                  loading="lazy"
+                  class="img-fluid section-img"
+                />
+              </div>
+              <div
+                class="text col-xs-12 col-sm-6 align-center justify-center-xs text-center-xs"
+              >
+                <div class="content">
+                  <h2 class="h1">القران الكريم</h2>
+                  <p class="lead">
+                    قال تعالى : ((إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا
+                    لَهُۥ لَحَـٰفِظُونَ))
+                  </p>
+                  <a href="#" class="btn btn-primary ml px-4">أبدا الان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Quran Section -->
+      <!-- Start Alhadith Section -->
+      <div class="alhadith py-5" id="alhadith">
+        <div class="container-fluid">
+          <div class="alhadith-content">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 text-center">
+                <img
+                  src="/assets/images/section-icons/Hadith.webp"
+                  alt="كتاب الحديث.webp"
+                  loading="lazy"
+                  class="img-fluid section-img"
+                />
+              </div>
+              <div
+                class="text col-xs-12 col-sm-6 align-center justify-center-xs text-center-xs"
+              >
+                <div class="content">
+                  <h2 class="h1">الحديث النبوي</h2>
+                  <p class="lead">
+                    قال رسول الله صلى الله عليه وسلم
+                    <span
+                      >((عليكم بسنتي وسنة الخلفاء المهديين من بعدي عضوا عليها
+                      بالنواجذ.))</span
+                    >
+                  </p>
+                  <a href="#" class="btn btn-primary ml px-4">أبدا الان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Aladith Section -->
+      <!-- Start Alsyrah Section -->
+      <div class="alsyrah py-5" id="alsyrah">
+        <div class="container-fluid">
+          <div class="alsyrah-content">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 text-center">
+                <img
+                  src="/assets/images/section-icons/Seerah.webp"
+                  alt="كتاب السيرة.webp"
+                  loading="lazy"
+                  class="img-fluid section-img"
+                />
+              </div>
+              <div
+                class="text col-xs-12 col-sm-6 align-center justify-center-xs text-center-xs"
+              >
+                <div class="content">
+                  <h2 class="h1">السيرة النبوية</h2>
+                  <p class="lead section-p">
+                    السيرة النبوية هي أدق ما كتب عن أنسان : أعظم ترجمة وأجمل قصة
+                    وأصدق رواية وأكرم تجربة وأمثل نموذج لدعوات النهضة في كل زمان
+                    ومكان. لا تحزن إن الله معنا، إن مع اليسر يسرا، النصر مع
+                    الصبر.
+                  </p>
+                  <a href="#" class="btn btn-primary ml px-4">أبدا الان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Alsyrah Section -->
+      <!-- Start Athkar Section -->
+      <div class="athkar py-5" id="athkar">
+        <div class="container-fluid">
+          <div class="athkar-content">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 text-center">
+                <img
+                  src="/assets/images/section-icons/Adhkar.webp"
+                  alt="كتاب الأذكار.webp"
+                  loading="lazy"
+                  class="img-fluid section-img"
+                />
+              </div>
+              <div
+                class="text col-xs-12 col-sm-6 align-center justify-center-xs text-center-xs"
+              >
+                <div class="content">
+                  <h2 class="h1">الأذكار</h2>
+                  <p class="lead">
+                    قال تعالى : (( الذين امنوا وتطمئن قلوبهم بذكر الله ألا بذكر
+                    الله تطمئن القلوب ))
+                  </p>
+                  <a href="#" class="btn btn-primary ml px-4">أبدا الان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Athkar Section -->
+      <!-- Start Books Section -->
+      <div class="books py-5" id="books">
+        <div class="container-fluid">
+          <div class="books-content">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 text-center">
+                <img
+                  src="/assets/images/section-icons/books.webp"
+                  alt="كتب.webp"
+                  loading="lazy"
+                  class="img-fluid section-img"
+                />
+              </div>
+              <div
+                class="text col-xs-12 col-sm-6 align-center justify-center-xs text-center-xs"
+              >
+                <div class="content">
+                  <h2 class="h1">كتب</h2>
+                  <p class="lead section-p">
+                    كتب في مجالات مختلفة : كتب أسلامية منوعة وكتب الأدب العربي
+                    وكتب تطوير الذات وكتب ثقافية منوعة بصيغة PDF يمكنك تحميلها.
+                  </p>
+                  <a href="#" class="btn btn-primary ml px-4">أبدا الان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Books Section -->
+      <!-- Start Miscellany Section -->
+      <div class="miscellany py-5" id="miscellany">
+        <div class="container-fluid">
+          <div class="miscellany-content">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 text-center">
+                <img
+                  src="/assets/images/section-icons/Varieties.webp"
+                  alt="منوعات.webp"
+                  loading="lazy"
+                  class="img-fluid section-img"
+                />
+              </div>
+              <div
+                class="text col-xs-12 col-sm-6 align-center justify-center-xs text-center-xs"
+              >
+                <div class="content">
+                  <h2 class="h1">منوعات</h2>
+                  <p class="lead section-p">
+                    منوعات أسلامية وثقافية ورسائل تفاؤل وسعادة وعرض قصص نجاح
+                    وقصص واقعية حدثت غذي عقلك بالمعرفة في شتى مجالات الحياة.
+                  </p>
+                  <a href="#" class="btn btn-primary ml px-4">أبدا الان</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Miscellany Section -->
+      <!-- Start Stories Section -->
+      <div class="stories py-5" id="stories">
+        <div class="container">
+          <div class="stories-content">
+            <div class="text">
+              <h2 class="pb-3">قصص إسلامية</h2>
+              <p class="lead">
+                قال تعالى : (( لقد كان في قصصهم عبرة لاولي الابصار...))
+              </p>
+              <p class="lead section-p">
+                نسرد لكم مجموعة من القصص الاسلامية كقصص الصحابة رضوان الله عليهم
+                وقصص الانبياء والرسل عليهم السلام وقصص خلفاء وأمراء وقادة وقصص
+                القران وقصص وعبر واعظة وقصص الصحابيات وقصص سوء وحسن الخاتمة وقصص
+                متنوعة.
+              </p>
+            </div>
+            <div class="stories-cards pt-5 text-center">
+              <div class="row">
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book3.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص الصحابة</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book2.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص الرسل والأنبياء</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book3.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">خلفاء وأمراء وقادة</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book2.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص الحيوان</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book2.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص الصحابيات</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book3.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص القران</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book2.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص متنوعة</span>
+                </div>
+                <div class="story-card col-xs-6 col-sm-4 col-md-3">
+                  <img
+                    src="/assets/images/cards/book3.webp"
+                    alt="كتاب.webp"
+                    loading="lazy"
+                    class="img-fluid"
+                  />
+                  <span class="story-title">قصص وعبر</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Stories Section -->
+      <!-- Start About Section -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-content">
+            <h2 class="section-header">من نحن</h2>
+            <p class="lead">
+              فريق عمل تطوعي نهدف الى نشر دين الاسلام الصحيح في جميع أنحاء
+              العالم نجعل كل ما يتعلق بالاسلام قريب منك لتكون أنت قريب منه نبسط
+              ونسعى الى غرز تعاليم الدين الحنيف في نفوس الناس ليزدادوا أيمانا
+              ونهدف الى ان يكون الشخص العربي مثقفا على مستوى مجالات متعددة وقد
+              وقف على مراجعة هذا الموقع كثير من أهل العلم والمعرفة والفضل وتمت
+              دراسة محتواه بشكل دقيق ومفصل ليكون عامل مساعد للناس لفهم أمور
+              دينهم وتاريخهم العربي المجيد.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+      <!-- Start Conatct Section -->
+      <section class="contact py-5">
+        <div class="container">
+          <div class="contact-content">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-md-6 col-lg-8">
+                <h2 class="section-header">تواصل معنا</h2>
+                <p class="lead section-p">
+                  يمكنك ان تتواصل معنا متى اردت فنخن في خدمتك دائما وفي حالة
+                  وجود اي خطا نتمنى ان تشعرونا فكلنا اصحاب نقص والكمال لله واي
+                  تفسير او سوال بامكانك ان تطرحه وسوف نرد عليك في اقرب وقت باذن
+                  الله.
+                </p>
+                <div class="media">
+                  <div class="email py-4 text-center">
+                    <i class="fas fa-envelope"></i>
+                    <h6>الأيميل</h6>
+                    <span>rasoulallah@gmail.com</span>
+                  </div>
+                  <div class="phone py-4 text-center">
+                    <i class="fas fa-phone"></i>
+                    <h6>الهاتف</h6>
+                    <span class="text-dir">713137843 967+</span>
+                  </div>
+                  <div class="facebook py-4 text-center">
+                    <i class="fab fa-facebook-f"></i>
+                    <h6>الفيسبوك</h6>
+                    <span class="text-dir">facebook.com/rasoulallah</span>
+                  </div>
+                </div>
+              </div>
+              <form action="#" class="py-3 px-4 col-sm-12 col-md-6 col-lg-4">
+                <h5 class="text-center">تواصل معنا</h5>
+                <label for="#">الاسم كامل*</label>
+                <input
+                  type="text"
+                  placeholder="الاسم كامل"
+                  class="py-2"
+                  required
+                />
+                <label for="#">ألايميل*</label>
+                <input
+                  type="email"
+                  placeholder="ألايميل"
+                  class="py-2"
+                  required
+                />
+                <label for="#">رسالة*</label>
+                <input
+                  type="text"
+                  placeholder="أكتب الرسالة هنا"
+                  class="py-2"
+                />
+                <input
+                  type="submit"
+                  value="أرسال الرسالة"
+                  class="btn-purple py-2"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End contact Section -->
+      <!-- Start Question -->
+      <div class="questions pb-5">
+        <div class="container">
+          <div class="questions-content">
+            <h2 class="section-header">أسئلة شايعة</h2>
+            <div class="links py-3 px-4">
+              <a href="#">ما تفسير قوله تعالى : ((والسماء ذات الحبك))؟</a>
+              <a href="#">سيرة النبي محمد صلى الله عليه وسلم كاملة؟</a>
+              <a href="#">ما حكم صلاة من توضئ ولم يغتسل من الجنابة؟</a>
+              <a href="#">سيرة الصحابي عمر أبن الخطاب كاملة؟</a>
+              <a href="#">كيف تتجنب الفتن في هذا الزمان؟</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Question -->
+      <!-- Start Footer Section -->
+      <footer class="pt-5 pb-3">
+        <div class="container">
+          <div class="footer-up pb-5">
+            <div class="footer-up-header mb">
+              <h4>رسول العالمين</h4>
+              <p class="lead">
+                هو موقع اسلامي شامل يضم كل ما يتعلق بالدين الاسلامي الحنيف وكل
+                ما يتعلق بالتاريخ العربي من شخصيات وعظماء غيروا مجرى التاريخ
+                ويضم كتب في جوانب مختلفة من الحياة.
+              </p>
+            </div>
+            <div class="footer-up-contact mb">
+              <h4>تواصل معنا</h4>
+              <div class="links">
+                <a href="#">713137843 967+</a>
+                <a href="#">rasoulallah@gmail.com</a>
+                <a href="#">islamicsite@gmail.com</a>
+              </div>
+            </div>
+            <div class="footer-up-links">
+              <h4>روابط</h4>
+              <div class="links">
+                <a href="#">الصفحة الرئيسية</a>
+                <a href="#">القران</a>
+                <a href="#">الحديث</a>
+                <a href="#">الفقه</a>
+                <a href="#">منوعات أسلامية</a>
+                <a href="#">قصص الانبياء</a>
+                <a href="#">الادب العربي</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-down pt-3 text-center">
+            <span>Copyright&copy;2023 Abdullah Alamoudi</span>
+          </div>
+        </div>
+      </footer>
+
+      <!-- End Footer Section -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

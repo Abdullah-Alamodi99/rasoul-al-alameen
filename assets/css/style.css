@@ -1,0 +1,533 @@
+/* Start Variables */
+:root {
+    --main-color: #6f42c1;
+    --primary-1: #282A35;
+    --primary-2: #D9EEE1;
+    --primary-3: #FFF4A3;
+    --primary-4: #282A35;
+    --primary-5: #F3ECEA;
+    --primary-6: #96D4D4;
+    --primary-7: #E7E9EB;
+}
+
+/* End Variables */
+body {
+    font-family: "Cairo", sans-serif;
+}
+
+/* Start My Framework */
+.bg-purple {
+    background: #6f42c1 !important;
+}
+
+.btn-purple {
+    color: #fff !important;
+    background: #6f42c1 !important;
+    border-color: #6f42c1 !important;
+}
+
+.btn-purple:hover {
+    color: #fff !important;
+    background: #6441a5 !important;
+}
+
+.btn-purple:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #6f42c187;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.btn-outline-success {
+    color: #f8f9fa;
+    border-color: #fff;
+}
+
+.btn-outline-success:hover {
+    background: #fff;
+    color: #000;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:576px) {
+    .justify-center-xs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-center-xs {
+        text-align: center;
+    }
+}
+
+.section-img {
+    margin-bottom: 1.5rem;
+    width: 270px;
+}
+
+.ml {
+    margin-left: 0.25rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+@media(min-width:992px) {
+    .section-p {
+        max-width: 80%;
+    }
+}
+
+/* End My Framework */
+/* Start Global Components */
+.section-header {
+    position: relative;
+    padding-bottom: 1rem;
+    display: inline-block;
+}
+
+.section-header::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    background-color: #6f42c1;
+}
+
+/* End Global Components */
+/* Start My Carousle */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    color: #000;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+}
+
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #6f42c1;
+}
+
+.carousel-caption {
+    color: #000;
+    text-align: center;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    margin-bottom: 1.5rem;
+}
+
+.fa-angle-right,
+.fa-angle-left {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+/* End My Carousle */
+@media (min-width:1025px) {
+    .navbar-brand {
+        margin-left: 3rem;
+    }
+}
+
+.carousel {
+    margin-bottom: 0;
+}
+
+/* Start Landing Page */
+.landing-page {
+    color: #fff;
+    background-color: rgb(28 58 102);
+}
+
+.landing-page .content h2.h1 {
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width:1200px) {
+    .landing-page .content p {
+        width: 75%;
+        margin: 0px auto 1rem;
+    }
+}
+
+/* End Landing Page */
+/* Start Quran Section */
+.quran {
+    background-color: #F3ECEA;
+    color: #000;
+}
+
+/* End Quran Section */
+/* Start Alhadith Section */
+.alhadith {
+    background-color: #D9EEE1;
+    color: #000;
+}
+
+.alhadith .text p span {
+    display: block;
+}
+
+/* End Alhadith Section*/
+/* Start Alsyrah Section */
+.alsyrah {
+    background-color: #FFF4A3;
+    color: #000;
+}
+
+/* End Alsyrah Section */
+/* Start Athkar Section */
+.athkar {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End Athkar Section */
+/* Start Books Section */
+.books {
+    background-color: #96D4D4;
+    color: #000;
+}
+
+/* End Books Section */
+/* Start Miscellany Section */
+.miscellany {
+    background-color: #E7E9EB;
+    color: #000;
+}
+
+/* End Miscellany */
+/* Start Stories Section */
+.stories {
+    background-color: #fff;
+}
+
+.stories-content h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.stories-content h2::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    height: 2px;
+    background-color: #6f42c1;
+}
+
+.stories-content p:first-of-type {
+    color: #0d6efd;
+    font-weight: 400;
+}
+
+.row {
+    justify-content: center;
+}
+
+.stories-content .story-card {
+    box-shadow: -2px 2px 4px 0px #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width:576px) {
+    .story-card {
+        width: calc(50% - 8px);
+    }
+}
+
+.story-card .story-title {
+    display: block;
+    padding-bottom: 1.5rem;
+}
+
+/* End Stories Section */
+/* Start About Section */
+.about {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End About Section */
+/* Start Contact Section */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px 2px #e9ecef;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width:992px) {
+    .contact form {
+        justify-content: center;
+    }
+}
+
+.contact form::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--main-color);
+    top: -25px;
+    left: -25px;
+}
+
+.contact form h5 {
+    margin-bottom: 1rem;
+}
+
+.contact form label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.contact form input {
+    margin-bottom: 0.5rem;
+    border: none;
+    outline: 0;
+    background: #d9eee154;
+    padding: 0.25rem 0.7rem;
+    border-radius: 5px;
+}
+
+.contact form input:nth-of-type(3) {
+    height: 160px;
+}
+
+.contact form input::placeholder {
+    text-align: right;
+}
+
+.contact form input:focus {
+    box-shadow: 0 0 0 0.25rem #6f42c187;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:992px) {
+    .media {
+        justify-content: center;
+    }
+}
+
+.media>div {
+    padding-left: 1.5rem;
+}
+
+.media i {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.media span {
+    opacity: 0.8;
+}
+
+/* End Contact Section */
+/* Start Questions Section */
+.questions .links {
+    background: #d9eee154;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.questions .links::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: #0d6efd;
+}
+
+.questions .links a {
+    display: block;
+    width: fit-content;
+    color: #0d6efd;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: color 0.15s ease-in-out;
+}
+
+.questions .links a:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.questions .links a:hover {
+    color: #004cbe;
+}
+
+/* End Questions Section */
+/* Start Footer Section */
+footer {
+    background-color: rgb(248, 249, 250);
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media(max-width:767px) {
+    .footer-up {
+        flex-direction: column;
+    }
+}
+
+.footer-up-header p {
+    max-width: 500px;
+}
+
+footer h4 {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    color: #000;
+    opacity: 0.8;
+    transition: color 0.15s ease-in-out;
+}
+
+footer a:hover {
+    color: #004cbe;
+    opacity: 1;
+}
+
+.footer-down {
+    border-top: 1px solid #dee2e6;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--main-color);
+    top: -25px;
+    left: -25px;
+}
+
+/* End Footer Section */
