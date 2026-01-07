@@ -68,7 +68,7 @@ rasoulallah/
 
 ## 🌐 Live Demo
  
-[Rasoul Al-Alameen Website Live](https://rasoul-al-Alameen.netlify.app)
+[Rasoul Al-Alameen Website Live](https://Abdullah-Alamodi99.github.io/rasoul-al-alameen)
 
 ## Author
 Abdullah Mohammed Abdullah Alamoudi
